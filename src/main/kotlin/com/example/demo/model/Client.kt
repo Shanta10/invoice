@@ -16,4 +16,6 @@ class Client {
     var fullname: String? = null
     @NotBlank(message="Campo obligatorio") //validate
     var address: String? = null
+    @NotBlank(message="Campo obligatorio") //validate
+    var email: String? = null
 }

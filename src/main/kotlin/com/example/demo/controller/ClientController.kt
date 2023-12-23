@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/client")   //endpoint
+
 class ClientController {
     @Autowired
     lateinit var clientService: ClientService

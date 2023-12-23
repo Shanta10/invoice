@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/product")   //endpoint
+
 class ProductController {
     @Autowired
     lateinit var productService: ProductService

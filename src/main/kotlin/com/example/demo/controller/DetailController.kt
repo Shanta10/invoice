@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/detail")   //endpoint
+
 class DetailController {
     @Autowired
     lateinit var detailService: DetailService
